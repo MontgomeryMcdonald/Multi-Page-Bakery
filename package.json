@@ -1,0 +1,28 @@
+{
+  "name": "multi-page-bakery",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/MontgomeryMcdonald/Multi-Page-Bakery#readme",
+  "bugs": {
+    "url": "https://github.com/MontgomeryMcdonald/Multi-Page-Bakery/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MontgomeryMcdonald/Multi-Page-Bakery.git"
+  },
+  "license": "MIT",
+  "author": "Montgomery Mcdonald",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "nodemon app.js",
+    "run" : "node app.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

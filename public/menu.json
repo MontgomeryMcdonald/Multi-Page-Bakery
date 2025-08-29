@@ -1,0 +1,7 @@
+[
+    {"Description" : "A Sweet, Gooey treat everyone loves", "Price" : 12.50, "Name" : "Brownies", "File" : "./images/bakery2.png"},
+    {"Description" : "A flavorful treat sure to brighten a day", "Price" : 17.50, "Name" : "Cookie", "File" : "./images/bakery6.png"},
+    {"Description" : "A Classic", "Price" : 10.50, "Name" : "Bread", "File" : "./images/bakery1.png"},
+    {"Description" : "A Healthy breakfast for everyone!", "Price" : 7.50, "Name" : "Bagel", "File" : "./images/bakery7.png"},
+    {"Description" : "A classic chocolate frosted donut", "Price" : 8.50, "Name" : "Donuts", "File" : "./images/bakery8.png"}
+]

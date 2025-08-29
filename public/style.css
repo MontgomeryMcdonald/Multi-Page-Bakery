@@ -1,10 +1,10 @@
 nav{
-    background-color: #444;
+    background-color: #afa597;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #f1f1f1;
+    color: black;
 }
 
 body{
@@ -17,7 +17,7 @@ a{
     padding: .5rem;
     margin: .5rem;
     border-radius: 1rem;
-    background-color: whitesmoke;
+    background-color: #ddd7fa;
     text-align: center;
     text-decoration: none;
 }
@@ -27,31 +27,97 @@ a{
     align-items: space-evenly;
     justify-content: space-evenly;
 }
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 main{
-    background-color: #444;
-    color: white;
-    height: fit-content;
+    /* background-image: url("./images/bakery1.png");
+    background-size: cover; */
+    border-radius: 1em;
+    color: black;
+    height: 100vh;
     margin: 1.5rem;
     padding: 1.5rem;
-    width: 75vw;
-    margin-left: 12.5vw;
+    width: 95vw;
     display: flex;
     flex-direction: column;
 }
-
+.images{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+}
 p{
     font-size: larger;
 }
 
+article, .imgcontainer{
+    margin: 2.5rem;
+    padding: 1.5rem;
+    display: flex;
+    width: 80vw;
+    flex-wrap: wrap;
+    background-color: #faebd7;
+    justify-content: center;
+}
+.imgcontainer{
+    justify-content: space-between;
+}
+.imgcontainer > div{
+    max-width: 40%;
+}
 img{
-    width: 100%;
+    width: 50%;
+    box-shadow: 5px 5px 25px #444;
 }
 tr{
     width: 100%;
 }
 
 td{
-    border: .2rem white solid;
+    border-radius: .2rem;
     padding: .8rem;
+}
+
+@media (max-width: 650px) {
+  tr{
+    width: 50%;
+  }
+  table{
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  td{
+    padding: 5px;
+  }
+main{
+    min-height: 50vh;
+    align-items: center;
+}
+input, textarea{
+    width: 100%;
+    font-size: larger;
+    height: 30%;
+}
+}
+form{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25pt;
+}
+input, textarea, button{
+    font-size: 25pt;
+    width: 100%;
+    background-color: #d7e6fa;
+}
+a:hover{
+    background-color: #d7e6fa;
+    box-shadow: 5px 5px 5px #444;
 }

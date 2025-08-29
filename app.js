@@ -22,6 +22,9 @@ app.get('/locations.html',(req, res)=>{
 app.get('/menu.html',(req, res)=>{
     res.sendFile(path.join(__dirname, 'public', 'menu.html'))
 })
+app.get('/menu.json',(req, res)=>{
+    res.sendFile(path.join(__dirname, 'public', 'menu.json'))
+})
 app.get((req, res)=>{
     res.sendFile(path.join(__dirname, 'public', '404.html'))
 })
